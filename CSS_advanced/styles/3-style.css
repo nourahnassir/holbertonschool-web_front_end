@@ -1,0 +1,30 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Task 3: Reuse and repeat */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+body {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
